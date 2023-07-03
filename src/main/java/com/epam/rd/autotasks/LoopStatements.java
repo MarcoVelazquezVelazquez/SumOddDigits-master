@@ -15,11 +15,11 @@ class LoopStatements {
     public static void main(String[] args) {
         int number = 1234;
         int sum = sumOddDigits(number);
-        System.out.println("Sum of odd digits: " + sum);
+        System.out.println(LoopStatements.sumOddDigits(1234));
 
         number = 246;
         sum = sumOddDigits(number);
-        System.out.println("Sum of odd digits: " + sum);
+        System.out.println(LoopStatements.sumOddDigits(246));
     }
 
 }
